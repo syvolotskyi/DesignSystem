@@ -22,15 +22,7 @@ object DesignSystemComponents : ShowCaseComponent {
 
     override fun getSubComponents(): List<ShowCaseComponent> {
         return listOf(
-            new { SPColorsComponent() },
-            new { SPButtonComponent() },
-            new { SPDialogComponent() },
-            new { SPTextViewComponent() },
-            new { SPTextFieldsComponent() },
-            new { SPBannerComponent() },
-            new { SPBankCardComponent() },
-            new { SPMarksComponent() },
-            new { SPTabNavigationComponent() }
+            new { SPColorsComponent() }
         )
     }
 }
