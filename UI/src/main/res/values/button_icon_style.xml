@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ButtonIconic" parent="shadow_200_primary">
+        <item name="borderColor">@color/static_secondary_maroon</item>
+        <item name="iconBackgroundColor">@color/static_secondary_blue</item>
+        <item name="iconColor">@color/static_primary_white</item>
+        <item name="icon">@drawable/ic_human_add_24_regular</item>
+    </style>
+
+    <style name="ButtonIconic.Special" parent="ButtonIconic">
+        <item name="borderColor">@color/static_secondary_blue</item>
+        <item name="iconBackgroundColor">@color/static_primary_white</item>
+        <item name="iconColor">@color/static_primary_black</item>
+        <item name="icon">@drawable/ic_bill_multiple_add_24_regular</item>
+    </style>
+</resources>

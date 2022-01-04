@@ -1,6 +1,7 @@
 package ge.space.ui.components.button.base
 
 import android.content.Context
+import android.graphics.Color
 import android.util.AttributeSet
 import android.view.MotionEvent
 import androidx.annotation.AttrRes
@@ -25,16 +26,6 @@ abstract class ButtonBaseView <VB : ViewBinding> @JvmOverloads constructor(
     private val _binding by lazy {
         getViewBinding()
     }
-
-    /**
-     * Sets a button title.
-     */
-    var text: String = ""
-        set(value) {
-            field = value
-
-            updateText(value)
-        }
 
     init {
         binding = _binding
@@ -66,9 +57,6 @@ abstract class ButtonBaseView <VB : ViewBinding> @JvmOverloads constructor(
         }
         return false
     }
-
-    protected abstract fun updateText(text: String)
-
     /**
      * Allows to init ViewBinding
      */

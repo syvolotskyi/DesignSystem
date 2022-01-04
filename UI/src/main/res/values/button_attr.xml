@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ButtonIconic">
+        <attr name="iconBackgroundColor" format="reference|color" />
+        <attr name="borderColor" />
+        <attr name="iconColor" format="reference|color" />
+        <attr name="icon" format="reference" />
+    </declare-styleable>
+</resources>
