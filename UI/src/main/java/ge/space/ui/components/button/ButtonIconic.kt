@@ -31,8 +31,4 @@ class ButtonIconic @JvmOverloads constructor(
             TODO("Not yet implemented")
         }
     }
-
-    override fun updateText(text: String) {
-        TODO("Not yet implemented")
-    }
 }

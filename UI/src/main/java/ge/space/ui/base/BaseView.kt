@@ -217,7 +217,7 @@ abstract class BaseView @JvmOverloads constructor(
             defStyleAttr
         ) {
             setStyle(
-                getResourceId(R.styleable.SPBaseView_style, R.style.SPBaseView)
+                getResourceId(R.styleable.SPBaseView_style, R.style.BaseView)
             )
             borderColor = getColor(
                 R.styleable.SPBaseView_borderColor,
