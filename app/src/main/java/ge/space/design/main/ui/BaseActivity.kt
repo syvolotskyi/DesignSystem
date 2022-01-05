@@ -29,12 +29,7 @@ abstract class BaseActivity : AppCompatActivity() {
     }
 
     private fun setProperTheme() {
-        val theme = when (preferencesManager.getInt(PREFERENCES_THEME, 0)) {
-            DARK_THEMES_INDEX -> R.style.AppThemeDark
-            WHITE_THEMES_INDEX -> R.style.AppThemeWhite
-            else -> null
-        }
-        theme?.let { setTheme(it) }
+        theme?.let { setTheme(R.style.AppThemeWhite) }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
